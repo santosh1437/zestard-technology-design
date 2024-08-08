@@ -1,0 +1,786 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zestard Technology</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/@splidejs/splide@3.6.11/dist/css/splide.min.css" rel="stylesheet">
+</head>
+
+<body>
+
+    <!-- nav-bar section start -->
+    <nav class="navbar navbar-expand-lg bg-light sticky-top">
+        <div class="container-fluid">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText"
+                aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-between" id="navbarText">
+                <ul class="navbar-nav mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link " aria-current="page" href="#">SHOP</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">ABOUT</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">THE GREENERY</a>
+                    </li>
+                </ul>
+                <span class="logo me-5">
+                    <img src="images/Group 1.svg" alt="logo">
+                </span>
+                <ul class="navbar-nav mb-2 mb-lg-0 me-5">
+                    <li class="nav-item">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                            class="bi bi-search" viewBox="0 0 16 16">
+                            <path
+                                d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001q.044.06.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1 1 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0" />
+                        </svg>
+                    </li>
+                    <li class="nav-item mx-3">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                            class="bi bi-person-square" viewBox="0 0 16 16">
+                            <path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0" />
+                            <path
+                                d="M2 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2zm12 1a1 1 0 0 1 1 1v12a1 1 0 0 1-1 1v-1c0-1-1-4-6-4s-6 3-6 4v1a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1z" />
+                        </svg>
+                    </li>
+                    <li class="nav-item">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                            class="bi bi-bag" viewBox="0 0 16 16">
+                            <path
+                                d="M8 1a2.5 2.5 0 0 1 2.5 2.5V4h-5v-.5A2.5 2.5 0 0 1 8 1m3.5 3v-.5a3.5 3.5 0 1 0-7 0V4H1v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V4zM2 5h12v9a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1z" />
+                        </svg>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- nav-bar section end -->
+
+    <!-- home page start -->
+    <div class="homeParent">
+        <div class="home-text">
+            <p class="me-lg-5">Natural, Plant-Powered Beauty</p>
+            <div class="btn btn-light">SHOP NOW ></div>
+        </div>
+    </div>
+    <!-- home page end -->
+
+    <!-- skin care start -->
+    <div class="container my-5">
+        <p class="center-text">Skincare as Nature Intended.<br> Formulated without parabens, sulfates, harmful
+            alcohols,<br> synthetic dyes,
+            artificial fragrances, animal products, <br>animal testing, and other bad stuff.</p>
+
+        <div class="images my-5">
+            <img src="images/Group 196.svg" alt="">
+            <img src="images/Group 2249.svg" alt="">
+            <img src="images/Group 2250.svg" alt="">
+            <img src="images/Group 2310.svg" alt="">
+            <img src="images/Group 278.svg" alt="">
+            <img src="images/Group 991.svg" alt="">
+        </div>
+    </div>
+    <!-- skin care end -->
+
+    <!-- shop skin start -->
+    <div class="container my-5 ">
+        <div class="text-center">
+            <img src="images/Group 2503.svg" alt="">
+            <h3 class="text-black">Shop Our Skin-Loving Lineup</h3>
+            <p>Skincare formulated for hydrated, nourished, hey-good-looking skin.</p>
+        </div>
+        <div class="carousel my-5">
+            <div class="splide">
+                <div class="splide__track">
+                    <ul class="splide__list">
+                        <li class="splide__slide">
+                            <div class="card" style="width: 20rem;">
+                                <div class="card-img-top position-relative">
+                                    <img src="images/p1.png" class="img-fluid" alt="...">
+                                    <!-- <button class="btn btn-dark quick-view-btn" data-toggle="modal" data-bs-target="#exampleModal">Quick View</button> -->
+                                    <button type="button" class="btn btn-dark quick-view-btn" data-bs-toggle="modal"
+                                        data-bs-target="#exampleModal">
+                                        Quick View
+                                    </button>
+                                </div>
+                                <div class="card-body">
+                                    <h5 class="card-title fw-bold text-start">Relief & Repair Moisturizer</h5>
+                                    <p class="card-text">A moisturizer for dry, sensitive skin that seriously hydrates
+                                        and soothes.</p>
+                                    <div class="d-flex justify-content-between">
+                                        <span class="value text-success">$0.00</span>
+                                        <a href="#" class="btn btn-dark">Add to Cart ></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="splide__slide">
+                            <div class="card" style="width: 20rem;">
+                                <img src="images/p2.png" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title fw-bold text-start">Afterglow Serum</h5>
+                                    <p class="card-text">Some quick example text to build on the card title and make up
+                                        the bulk of the card's content.</p>
+                                    <div class="d-flex justify-content-between">
+                                        <span class="value text-success">
+                                            $0.00
+                                        </span>
+                                        <a href="#" class="btn btn-dark ">Add to Cart ></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="splide__slide">
+                            <div class="card" style="width: 20rem;">
+                                <img src="images/p3.png" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title fw-bold text-start">Afterglow Serum</h5>
+                                    <p class="card-text">Some quick example text to build on the card title and make up
+                                        the bulk of the card's content.</p>
+                                    <div class="d-flex justify-content-between">
+                                        <span class="value text-success">
+                                            $0.00
+                                        </span>
+                                        <a href="#" class="btn btn-dark ">Add to Cart ></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="splide__slide">
+                            <div class="card" style="width: 20rem;">
+                                <img src="..." class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title">Card title</h5>
+                                    <p class="card-text">Some quick example text to build on the card title and make up
+                                        the bulk of the card's content.</p>
+                                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="splide__slide">
+                            <div class="card" style="width: 20rem;">
+                                <img src="..." class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title">Card title</h5>
+                                    <p class="card-text">Some quick example text to build on the card title and make up
+                                        the bulk of the card's content.</p>
+                                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="splide__slide">
+                            <div class="card" style="width: 20rem;">
+                                <img src="..." class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title">Card title</h5>
+                                    <p class="card-text">Some quick example text to build on the card title and make up
+                                        the bulk of the card's content.</p>
+                                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="splide__slide">
+                            <div class="card" style="width: 20rem;">
+                                <img src="..." class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title">Card title</h5>
+                                    <p class="card-text">Some quick example text to build on the card title and make up
+                                        the bulk of the card's content.</p>
+                                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="splide__slide">
+                            <div class="card" style="width: 20rem;">
+                                <img src="..." class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title">Card title</h5>
+                                    <p class="card-text">Some quick example text to build on the card title and make up
+                                        the bulk of the card's content.</p>
+                                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="splide__slide">
+                            <div class="card" style="width: 20rem;">
+                                <img src="..." class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title">Card title</h5>
+                                    <p class="card-text">Some quick example text to build on the card title and make up
+                                        the bulk of the card's content.</p>
+                                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                    <div class="text-center">
+                        <div class="btn btn-success my-5"> SHOP ALL ></div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="productModalLabel"
+                aria-hidden="true">
+                <div class="modal-dialog modal-lg">
+                    <div class="modal-content">
+                        <div class="modal-header d-flex justify-content-between">
+                            <h5 class="modal-title" id="productModalLabel">Product Details</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            <div class="container">
+                                <div class="row">
+                                    <div class="col-md-2">
+                                        <div class="additional-images">
+                                            <img src="images/p1.png" class="img-thumbnail" alt="Image 1"
+                                                onclick="changeImage(this)">
+                                            <img src="images/p2.png" class="img-thumbnail" alt="Image 2"
+                                                onclick="changeImage(this)">
+                                            <img src="images/p3.png" class="img-thumbnail" alt="Image 3"
+                                                onclick="changeImage(this)">
+                                        </div>
+                                    </div>
+                                    <div class="col-md-5">
+                                        <img id="mainImage" src="images/p1.png" class="img-fluid" alt="Product">
+                                    </div>
+                                    <div class="col-md-5">
+                                        <h5>Relief & Repair Moisturizer</h5>
+                                        <img src="images/Group 2726.svg" alt="">
+                                        <hr>
+                                        <p>A moisturizer for dry, sensitive skin that seriously hydrates and soothes.
+                                        </p>
+
+                                        <div class="mt-3 d-flex justify-content-between mt-5">
+                                            <span class="value text-success">$0.00</span>
+                                            <div class="d-flex justify-content-between">
+                                                <div class="d-flex align-items-center">
+                                                    <button class="btn btn-outline-dark btn-sm"
+                                                        onclick="decreaseQuantity()">-</button>
+                                                    <input type="text" class="form-control text-center mx-2" value="1"
+                                                        style="width: 50px;" readonly>
+                                                    <button class="btn btn-outline-dark btn-sm"
+                                                        onclick="increaseQuantity()">+</button>
+                                                </div>
+                                                <a href="#" class="btn btn-dark ms-2">Add to Cart</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- shop skin end -->
+
+    <!-- No stress start -->
+    <div class="container-fluid noStress">
+        <div class="row">
+            <div class="col-md-8">
+                <img src="images/noSkin.png" alt="">
+            </div>
+            <div class="col-md-4">
+                <div class="noimg-text pe-5">
+                    <h2 class="me-5 text-success">No Stress. Just Great Skin.</h2>
+                    <p class="my-3">All too often, skincare can be complicated, confusing, and costly. With endless
+                        products making
+                        all kinds of claims, and ingredients you need an advanced degree to figure out. Finding what
+                        works for you usually means trial and error, then more of the same. <br> <br> Luma & Leaf. We’re
+                        here to give you products that work, that are sensitive-safe, without harmful ingredients. Luma
+                        & Leaf combines the power of plants with the promise of science, to deliver gorgeous results for
+                        all skin types. Keeping you hydrated, radiant, and feeling like your best self, period.</p>
+                    <div class="btn btn-success">OUT STORY ></div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row m-5 nostress-mob">
+            <div class="col-md-6 plant-power">
+                <h2 class="text-success">
+                    Plant Power to the People
+                </h2>
+                <p>Our products contain plants with benefits. Like broad-spectrum cannabidiol, a.k.a. CBD.</p>
+            </div>
+            <div class="col-md-6 Plant">
+                <div class="card mb-3 bg-transparent border-0">
+                    <div class="d-flex justify-content-between">
+                        <img src="images/Group 2521.svg" alt="" class="formula-img">
+                        <div class="card-body">
+                            <h5 class="card-title">Formula-First</h5>
+                            <p class="card-text">We pair powerful ingredients - like vitamin C, squalene, hyaluronic
+                                acid,
+                                and bakuchiol - with broad-spectrum cannabidiol to help relieve a variety of skin issues
+                                and
+                                renew skin’s health.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card mt-3 mb-3 bg-transparent border-0">
+                    <div class="d-flex justify-content-between">
+                        <img src="images/Group 2523.svg" alt="" class="formula-img">
+                        <div class="card-body">
+                            <h5 class="card-title">Sensitive-Safe</h5>
+                            <p class="card-text">CBD’s calming and anti-inflammatory properties help soothe skin without
+                                giving it extra stress</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card mb-3 bg-transparent border-0">
+                    <div class="d-flex justify-content-between">
+                        <img src="images/Group 2525.svg" alt="" class="formula-img">
+                        <div class="card-body">
+                            <h5 class="card-title">Third-Party Tested</h5>
+                            <p class="card-text">Our organically grown broad-spectrum cannabidiol will always have a
+                                Certificate of Analysis by third-party labs, to ensure all the benefits of CBD without
+                                the high of THC.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row container p-5">
+            <div class="col-md-6 ps-5">
+                <div>
+                    <h3>How We Make it Matters</h3>
+                    <p class="para">Giving you your best skin ever means using only the best stuff. The entire Luma &
+                        Leaf line is made with the highest quality, sustainably-sourced, clean ingredients. Formulated
+                        without parabens, sulfates, harmful alcohols, synthetic dyes, artificial fragrances,
+                        animal products, animal testing, and other bad stuff. So we can all feel great about making you
+                        look amazing.</p>
+                    <div class="btn btn-success good-btn">More good stuff > </div>
+                    <div class="d-none d-lg-block">
+                        <img src="images/tree.png" alt="" class="tree">
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6  d-none d-lg-block">
+                <img src="images/Girl-4.png" alt="" class="girl">
+            </div>
+            <div class="col-md-6 d-lg-none mt-5">
+                <img src="images/Girl-4.png" alt="" class="girl">
+            </div>
+        </div>
+    </div>
+    <!-- No stress end -->
+
+    <!-- collection start -->
+    <div class="container my-5 ">
+        <div class="text-center">
+            <img src="images/Group 2538.svg" alt="">
+            <h2>Our Collection</h2>
+            <p>We’ve created three collections that reach out to everybody’s skincare needs.</p>
+        </div>
+
+        <div class="d-none d-lg-block">
+
+            <div class="row text-center " style="margin-top: 100px;">
+                <div class="col-md-4 col-sm-12">
+                    <img src="images/cImg1.svg" alt="" class="ps-lg-5">
+                </div>
+                <div class="col-md-4 col-sm-12">
+                    <img src="images/cImg2.svg" alt="">
+                </div>
+                <div class="col-md-4 col-sm-12">
+                    <img src="images/cImg3.svg" alt="">
+                </div>
+            </div>
+        </div>
+
+        <div id="carouselExampleIndicators" class="carousel slide d-lg-none" data-bs-ride="true">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                    aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="images/cImg1.svg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="images/cImg2.svg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="images/cImg3.svg" class="d-block w-100" alt="...">
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+        <div class="text-center my-5">
+            <div class="btn btn-success" style="border-radius: 50px;"> SHOP ALL ></div>
+        </div>
+    </div>
+    <!-- collection end -->
+
+    <div class="streat">
+        <div class="container text-center py-5">
+            <h2 class="fw-bold">Word on the Street!</h2>
+            <img src="images/Group 2531.png" alt="" class="py-5">
+            <img src="images/Group 2531.png" alt="">
+        </div>
+    </div>
+
+    <!-- making differneve start -->
+
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-6">
+                <img src="images/makingdiff2.png" alt="" class="w-100 h-100">
+            </div>
+            <div class="col-md-6 px-5 makingDiff">
+                <div class="row">
+                    <div class="col-md-9">
+                        <h2>Making a Difference</h2>
+                        <p class="my-5">Lorem ipsum dolor sit amet, consectetur adipiscing elit. In quis pellentesque
+                            ipsum. Nulla tincidunt
+                            eros vel odio scelerisque, sed tristique orci ultricies. Cras in vehicula mauris. In massa
+                            lacus,
+                            vehicula nec ultrices eget, dapibus eu lacus. Nam nec fermentum nunc, non imperdiet quam.
+                            <br><br> Since
+                            2014, InHerShoes has supported thousands of girls to be 1% more courageous while positively
+                            impacting their communities in the process. We’ve partnered with InHerShoes to help give
+                            back.
+                            That’s why we have pledged to donate 5% of our annual revenue.
+                        </p>
+                        <div class="btn btn-success">Learn More ></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- making differneve end -->
+
+    <!-- greenery start -->
+    <div class="container my-5 greenery">
+        <div class="text-center">
+            <img src="images/Group 2542.svg" alt="">
+            <h3 class="text-black fw-bold">The Greenery</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam bibendum interdum ex.</p>
+        </div>
+       <div class="d-none d-lg-block">
+        <div class="row my-lg-5 ">
+            <div class="col-md-4">
+                <div class="card border-0" style="width: 25rem;">
+                    <div class="card-img-top position-relative">
+                        <img src="images/greenery1.png" class="img-fluid" alt="...">
+                    </div>
+                    <div class="card-body">
+                        <h6 class="card-title fw-bold text-start">3 Recipes You’ll Love, Inspired by Nature’s Goodness
+                        </h6>
+                        <p class="card-text">Skincare so good, you’ll want to eat it. Just kidding. Don’t do that, even
+                            if that ingredient list does look like a plant-based recipe from your Pinterest dreams.</p>
+                        <a href="#" class="btn btn-dark mt-3">READ MORE ></a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card border-0" style="width: 25rem;">
+                    <div class="card-img-top position-relative">
+                        <img src="images/greenery2.png" class="img-fluid" alt="...">
+                    </div>
+                    <div class="card-body">
+                        <h6 class="card-title fw-bold text-start">5 Ideas for Repurposing Those Beautiful Bottles You
+                            Just Can’t Part With</h6>
+                        <p class="card-text">You may have already noticed that Luma & Leaf is a different kind of
+                            skincare company. We are committed to a core set of values that shape everything we do for
+                            you.</p>
+                        <a href="#" class="btn btn-dark">READ MORE ></a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card border-0" style="width: 25rem;">
+                    <div class="card-img-top position-relative">
+                        <img src="images/greenery3.png" class="img-fluid" alt="...">
+                    </div>
+                    <div class="card-body">
+                        <h6 class="card-title fw-bold text-start">How to Take Your Skincare Routine On A World Tour</h6>
+                        <p class="card-text">After countless days spent inside, longing to hop on a plane to a
+                            much-needed getaway has basically become a daily occurrence. But until then, we’ll just have
+                            to dream.</p>
+                        <a href="#" class="btn btn-dark">READ MORE ></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+       </div>
+
+        <div class="d-lg-none">
+            <div id="carouselExampleIndicators2" class="carousel slide" data-bs-ride="true">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleIndicators2" data-bs-slide-to="0"
+                        class="active" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators2" data-bs-slide-to="1"
+                        aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators2" data-bs-slide-to="2"
+                        aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <div class="card border-0" style="width: 25rem;">
+                            <div class="card-img-top position-relative">
+                                <img src="images/greenery1.png" class="img-fluid" alt="...">
+                            </div>
+                            <div class="card-body">
+                                <h6 class="card-title fw-bold text-start">3 Recipes You’ll Love, Inspired by Nature’s
+                                    Goodness
+                                </h6>
+                                <p class="card-text">Skincare so good, you’ll want to eat it. Just kidding. Don’t do
+                                    that, even
+                                    if that ingredient list does look like a plant-based recipe from your Pinterest
+                                    dreams.</p>
+                                <a href="#" class="btn btn-dark mt-3">READ MORE ></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="card border-0" style="width: 25rem;">
+                            <div class="card-img-top position-relative">
+                                <img src="images/greenery2.png" class="img-fluid" alt="...">
+                            </div>
+                            <div class="card-body">
+                                <h6 class="card-title fw-bold text-start">How to Take Your Skincare Routine On A World
+                                    Tour</h6>
+                                <p class="card-text">After countless days spent inside, longing to hop on a plane to a
+                                    much-needed getaway has basically become a daily occurrence. But until then, we’ll
+                                    just have
+                                    to dream.</p>
+                                <a href="#" class="btn btn-dark">READ MORE ></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="card border-0" style="width: 25rem;">
+                            <div class="card-img-top position-relative">
+                                <img src="images/greenery3.png" class="img-fluid" alt="...">
+                            </div>
+                            <div class="card-body">
+                                <h6 class="card-title fw-bold text-start">How to Take Your Skincare Routine On A World
+                                    Tour</h6>
+                                <p class="card-text">After countless days spent inside, longing to hop on a plane to a
+                                    much-needed getaway has basically become a daily occurrence. But until then, we’ll
+                                    just have
+                                    to dream.</p>
+                                <a href="#" class="btn btn-dark">READ MORE ></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators2"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators2"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </div>
+
+        <div class="text-center">
+            <div class="btn btn-success">ENTER THE GREENERY ></div>
+        </div>
+    </div>
+
+    <!-- greenery end -->
+
+
+    <!-- image section start -->
+    <div class="d-none d-lg-block">
+        <div class="container my-5 img-sec me-3 ">
+            <div class="row">
+                <div class="col-md-4 px-5">
+                    <img src="images/img1.png" alt="" style="width: 50px; height: 50px;">
+                    <h2>Join the Clean Skin Crew on IG</h2>
+                    <p>Follow us at @lumaandleaf for skincare advice, good news, and bright vibes.</p>
+                </div>
+                <div class="col-md-4">
+                    <img src="images/img2.png" alt="">
+                </div>
+                <div class="col-md-4">
+                    <img src="images/img3.png" alt="">
+                </div>
+    
+            </div>
+            <div class="row my-5">
+                <div class="col-md-4">
+                    <img src="images/img4.png" alt="">
+                </div>
+                <div class="col-md-4">
+                    <img src="images/img5.png" alt="">
+                </div>
+                <div class="col-md-4">
+                    <img src="images/img6.png" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="d-lg-none my-5">
+        <div class="mx-3">
+            <img src="images/img1.png" alt="" style="width: 50px; height: 50px;">
+        <h2>Join the Clean Skin Crew on IG</h2>
+        <p>Follow us at @lumaandleaf for skincare advice, good news, and bright vibes.</p>
+        </div>
+        <div id="carouselExampleIndicators3" class="carousel slide" data-bs-ride="true">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleIndicators3" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators3" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators3" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="images/img2.png" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="images/img3.png" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="images/img4.png" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="images/img5.png" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="images/img6.png" class="d-block w-100" alt="...">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators3" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators3" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+    </div>
+
+    <!-- image section end -->
+
+    <!-- footer start -->
+    <div class="footer">
+        <div class="footerParent">
+            <div class="footer-text text-center">
+                <h1 class="text-light fw-bold">Ready to Hydrate?</h1>
+                <div class="btn btn-success mt-5">SHOP NOW ></div>
+            </div>
+        </div>
+        <div class="footer-content ps-lg-5">
+            <div class="row container p-lg-5 pt-mob">
+                <div class="col-md-2 col-6">
+                    <h2 class="ms-lg-4">About</h2>
+                    <ul class="">
+                        <li>Our Story</li>
+                        <li>Our Promise</li>
+                        <li>SHipping / Returns</li>
+                        <li>FAQs</li>
+                    </ul>
+                </div>
+                <div class="col-md-2 col-6">
+                    <h2 class="ms-lg-2">More Info</h2>
+                    <ul>
+                        <li>The Greenery</li>
+                        <li>Skin Glossary</li>
+                        <li>Terms of Use</li>
+                        <li>Privacy Policy</li>
+                        <li>COA</li>
+                    </ul>
+                </div>
+                <div class="col-md-4 col-12">
+                    <h2>Get in Touch</h2>
+                    <p>Have a question? Want to just say hello? Send us a message anytime at <span
+                            class="text-success">hello@lumaandleaf.com</span></p>
+                    <p>The information and products on this site have not been evaluated by the FDA. The products are
+                        not intended to Diagnose, treat, cure or prevent any disease.</p>
+                </div>
+
+                <div class="col-md-4 ps-lg-4">
+                    <h3 class="fs-4">All of the Tea. None of the Spam.</h3>
+                    <div class="">
+                        <input type="text" placeholder="Enter Email Address ">
+                        <div class="btn btn-light">SIGN UP ></div>
+                    </div>
+                    <div class="d-flex mt-4">
+                        <img src="images/Path 8341.svg" alt="">
+                        <div class="p-3">
+                            <img src="images/Group 2719.svg" alt="">
+                            <p class="mt-3">2024 Luma & Leaf. All Rights Reserved.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- footer end -->
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@3.6.11/dist/js/splide.min.js"></script>
+    <script>
+        var splide = new Splide('.splide', {
+            perPage: 3,
+            focus: 'center',
+            omitEnd: true,
+            pagination: false,
+            arrows: true,
+            gap: '1rem',
+            breakpoints: {
+                768: {  // For devices with a width of 768px or less (like tablets and mobile devices)
+                    perPage: 1,
+                },
+            },
+        });
+
+        splide.mount();
+
+        function changeImage(element) {
+            document.getElementById('mainImage').src = element.src;
+        }
+
+        function increaseQuantity() {
+            const input = document.querySelector('.quantity-control input');
+            let value = parseInt(input.value);
+            input.value = value + 1;
+        }
+
+        function decreaseQuantity() {
+            const input = document.querySelector('.quantity-control input');
+            let value = parseInt(input.value);
+            if (value > 1) {
+                input.value = value - 1;
+            }
+        }
+    </script>
+</body>
+
+</html>
